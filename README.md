@@ -1,5 +1,5 @@
-# Introduction_ML_Summative
-Credit Card Fraud Detection Project
+# Credit Card Fraud Detection Project
+
 Project Overview
 This project aims to develop a robust machine learning model to detect fraudulent credit card transactions. The objective is to create an efficient and accurate fraud detection system that can identify potentially suspicious activities, thus helping financial institutions minimize losses and enhance transaction security.
 
@@ -13,11 +13,12 @@ Source: The dataset used for this project is the Credit Card Fraud Detection dat
 Description: The dataset contains transactions made by credit cards, labeled as fraudulent or non-fraudulent. It includes several features that represent transaction details.
 Preprocessing: Data was preprocessed to handle missing values, normalize features, and address class imbalance.
 Key Findings
-The Vanilla Neural Network served as a baseline model, showing moderate performance with standard neural network architecture.
+The Vanilla Neural Network(model1) served as a baseline model, showing moderate performance with standard neural network architecture.
 The Regularized Neural Network (model2) significantly improved the accuracy and ability to generalize, utilizing regularization techniques and class weights to handle class imbalance.
 Model2 demonstrated superior performance metrics, including accuracy, precision, and recall, making it more effective for detecting fraud.
 
-#Discussion on Optimization Techniques#
+#  Discussion on Optimization Techniques
+
 In this Credit Card Fraud Detection project, we employed several optimization techniques to enhance the performance and accuracy of our models. The goal was to create a robust model capable of detecting fraudulent transactions with high precision. We implemented these techniques with a clear focus on regularization, class balancing, learning rate adaptation, and early stopping, each playing a critical role in improving the model's effectiveness.
 
 1. Regularization Techniques
@@ -63,7 +64,7 @@ Learning rate plays a critical role in determining the speed and convergence of 
 
 
 
-                                                   ADITTIONNALITY
+# ADITTIONNALITY
 
 Instructions for Running the Notebook
 Follow these steps to set up and run the project:
@@ -87,7 +88,7 @@ from keras.optimizers import Adam
 from keras.regularizers import l1, l2
 from sklearn.metrics import classification_report)
 
-Download the Dataset:
+# Download the Dataset:
 
 Obtain the Credit Card Fraud Detection dataset from Kaggle.
 Place the dataset in the appropriate directory within your project folder.
